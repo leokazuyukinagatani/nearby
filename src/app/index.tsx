@@ -1,5 +1,7 @@
+import { Step } from "@/components/step";
+import { Steps } from "@/components/steps";
 import { Welcome } from "@/components/welcome";
-import { View, Text } from "react-native";
+import { View } from "react-native";
 
 export default function Index() {
   return (
@@ -10,7 +12,8 @@ export default function Index() {
         gap: 24
       }}
     >
-      <Welcome/>
+      <Welcome />
+      <Steps />
     </View>
   )
 }
