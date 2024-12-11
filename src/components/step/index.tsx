@@ -1,9 +1,9 @@
+import { ComponentType } from "react";
 import { Text, View } from "react-native";
 import { IconProps } from "@tabler/icons-react-native";
 
 import { s } from "./styles";
 import { colors } from "@/styles/theme";
-import { ComponentType } from "react";
 
 export interface StepProps {
     title: string,
